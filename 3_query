@@ -1,0 +1,5 @@
+SELECT * FROM usuario
+    WHERE idade >= 18 
+    AND profissao = 'programador'
+    OR profissao = 'desenvolvedor'
+    ORDER BY name;
